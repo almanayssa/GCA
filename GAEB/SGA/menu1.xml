@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<menu>
+	<menuItem>
+		<text>Datos Personales</text>
+		<subMenu>
+			<menuItem> 		
+				<text>Actualizacion de Datos</text>
+				<url>#</url>
+			</menuItem>
+			<menuItem>		
+				<text>Cambio de Contraseña</text>
+				<url>#</url>
+			</menuItem>
+		</subMenu>
+	</menuItem>
+	<menuItem>
+		<text>Cuotas y/o Deudas</text>
+		<subMenu>
+			<menuItem>			
+				<text>Consulta y/o pago de cuotas pendientes</text>
+				<url>#</url>
+			</menuItem>
+      <menuItem>
+        <text>Consulta de otras deudas pendientes</text>
+        <url>#</url>
+      </menuItem>
+			<menuItem>
+				<text>Consulta Cuotas Canceladas</text>
+				<url>#</url>
+			</menuItem>
+		</subMenu>
+	</menuItem>
+  <menuItem>
+    <text>Alojamientos</text>
+    <subMenu>
+      <menuItem>
+        <text>Reserva y Pago de Alojamientos</text>
+        <url>#</url>
+      </menuItem>
+      <menuItem>
+        <text>Historico de Reservas</text>
+        <url>#</url>
+      </menuItem>
+    </subMenu>
+  </menuItem>
+	<menuItem>
+		<text>Invitados</text>
+		<subMenu>
+			<menuItem>			
+				<text>Registro de Invitados</text>
+				<url>#</url>
+			</menuItem>
+      <menuItem>
+        <text>Editar y/o Eliminar Invitaciones</text>
+        <url>#</url>
+      </menuItem>
+			<menuItem>			
+				<text>Historico de Invitados</text>
+				<url>#</url>
+			</menuItem>
+		</subMenu>
+	</menuItem>
+  <menuItem>
+    <text>Biblioteca</text>
+    <subMenu>
+      <menuItem>
+        <text>Búsqueda de libros</text>
+        <url>#</url>
+      </menuItem>
+    </subMenu>
+  </menuItem>
+  <menuItem>
+    <text>Reclamaciones</text>
+    <subMenu>
+      <menuItem>
+        <text>Reclamaciones</text>
+        <url>#</url>
+      </menuItem>
+    </subMenu>
+  </menuItem>
+  <menuItem>
+    <text>Comités</text>
+    <subMenu>
+      <menuItem>
+        <text>Cronograma de Actividades</text>
+        <url>frmCronogramaActividades.aspx</url>
+      </menuItem>
+    </subMenu>
+  </menuItem>
+</menu>

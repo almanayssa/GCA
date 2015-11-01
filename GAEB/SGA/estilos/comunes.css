@@ -1,0 +1,148 @@
+﻿iframe.skm 
+{
+	position:absolute;top:0px;left:0px;display:none;
+}
+
+.skmsubmenu
+{ 
+text-align : left; border : solid 1px #FBBD05;color:Black;
+background-color:#FFEFC0;cursor:pointer; z-index:auto;
+font-family : Verdana; font-size : small; font-weight : bold; width : 175px;line-height:20px;
+vertical-align:middle;
+}
+
+.skmSelMenuItem
+{
+	background-color: #FBBD05;
+} 
+
+
+
+.subMenu
+	{
+		BORDER-RIGHT: black thin; 
+		BORDER-TOP: black thin; 
+		BORDER-LEFT: black thin; 
+		BORDER-BOTTOM: black thin;
+	}
+
+body
+{
+    font-size: 11px;
+    color: #000000;
+    font-family: Tahoma, Arial, 'Microsoft Sans Serif';
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.Texto
+{
+    font-size: 11px;
+    font-family: Tahoma, Arial, 'Microsoft Sans Serif';
+}
+.Titulo
+{
+	font-weight: bold;
+	font-size: 13pt;
+	color: #879734;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.EnlaceCabecera
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #d0d5d0;
+    font-family: Arial, Tahoma, 'Microsoft Sans Serif';
+}
+.TituloGridView
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #000000;
+    font-family: Tahoma, Arial, 'Microsoft Sans Serif';
+    background-color: #879734;
+}
+.Menu1
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #ffffff;
+    font-family: Arial, Tahoma, 'Microsoft Sans Serif';
+}
+A.Menu1.link
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #ffffff;
+    font-family: Arial, Tahoma, 'Microsoft Sans Serif';
+}
+A.Menu1.hover
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #ffffff;
+    font-family: Arial, Tahoma, 'Microsoft Sans Serif';
+    text-decoration: underline;
+}
+
+.style1 {
+	font-weight: bold;
+	font-size: 10pt;
+	color: #ff0000;
+}
+	
+/* START CSS NEEDED ONLY IN DEMO */
+	
+	#mainContainer{
+		width:660px;
+		margin:0 auto;
+		text-align:left;
+		height:100%;
+		background-color:#FFF;
+		border-left:3px double #000;
+		border-right:3px double #000;
+	}
+	#formContent{
+		padding:5px;
+	}
+	/* END CSS ONLY NEEDED IN DEMO */
+	
+	
+	/* Big box with list of options */
+	#ajax_listOfOptions{
+		position:absolute;	/* Never change this one */
+		width:175px;	/* Width of box */
+		height:250px;	/* Height of box */
+		overflow:auto;	/* Scrolling features */
+		border:1px solid #317082;	/* Dark green border */
+		background-color:#FFF;	/* White background color */
+		text-align:left;
+		font-size:0.9em;
+		z-index:100;
+	}
+	#ajax_listOfOptions div{	/* General rule for both .optionDiv and .optionDivSelected */
+		margin:1px;		
+		padding:1px;
+		cursor:pointer;
+		font-size:0.9em;
+	}
+	#ajax_listOfOptions .optionDiv{	/* Div for each item in list */
+		
+	}
+	#ajax_listOfOptions .optionDivSelected{ /* Selected item in the list */
+		background-color:#317082;
+		color:#FFF;
+	}
+	#ajax_listOfOptions_iframe{
+		background-color:#F00;
+		position:absolute;
+		z-index:5;
+	}
+	
+	form{
+	display:inline;
+	background-color: #ECEBE7;
+	}

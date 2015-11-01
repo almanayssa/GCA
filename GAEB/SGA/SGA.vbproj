@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{1F8000A4-2021-48E4-B95E-1A35D981F20D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>SGA</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SGA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SGA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.20229.19608, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="BusyBoxDotNet, Version=0.2.1.1366, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\BusyBoxDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="skmMenu, Version=2.3.3215.23300, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\skmMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\AjaxControlToolkit.pdb" />
+    <Content Include="bin\Bosque.BE.dll" />
+    <Content Include="bin\Bosque.BE.pdb" />
+    <Content Include="bin\Bosque.BE.xml" />
+    <Content Include="bin\Bosque.BL.dll" />
+    <Content Include="bin\Bosque.BL.pdb" />
+    <Content Include="bin\Bosque.BL.xml" />
+    <Content Include="bin\Bosque.DL.dll" />
+    <Content Include="bin\Bosque.DL.pdb" />
+    <Content Include="bin\Bosque.DL.xml" />
+    <Content Include="bin\BusyBoxDotNet.dll" />
+    <Content Include="bin\CaptchaImage.dll" />
+    <Content Include="bin\lcEncriptacion.dll" />
+    <Content Include="bin\Round.dll" />
+    <Content Include="bin\skmMenu.dll" />
+    <Content Include="bin\Validators.dll" />
+    <Content Include="controles\usrEncabezado.ascx" />
+    <Content Include="controles\usrPie.ascx" />
+    <Content Include="estilos\Calendar.css" />
+    <Content Include="estilos\comunes.css" />
+    <Content Include="estilos\jquery.alerts.css" />
+    <Content Include="estilos\style.css" />
+    <Content Include="estilos\styles.css" />
+    <Content Include="imagenes\banners\barra.jpg" />
+    <Content Include="imagenes\banners\cuadrito.jpg" />
+    <Content Include="imagenes\botones\001.bmp" />
+    <Content Include="imagenes\botones\001.jpg" />
+    <Content Include="imagenes\botones\036.gif" />
+    <Content Include="imagenes\botones\acceder.jpg" />
+    <Content Include="imagenes\botones\agregar_inv.jpg" />
+    <Content Include="imagenes\botones\barMenu.gif" />
+    <Content Include="imagenes\botones\barra.gif" />
+    <Content Include="imagenes\botones\barra.jpg" />
+    <Content Include="imagenes\botones\barrita2.jpg" />
+    <Content Include="imagenes\botones\barrita3.jpg" />
+    <Content Include="imagenes\botones\boton1.gif" />
+    <Content Include="imagenes\botones\boton_consultar.gif" />
+    <Content Include="imagenes\botones\boton_enviar.jpg" />
+    <Content Include="imagenes\botones\boton_modificar.gif" />
+    <Content Include="imagenes\botones\boton_votacion.gif" />
+    <Content Include="imagenes\botones\btnAcceder.gif" />
+    <Content Include="imagenes\botones\btnActualizar.gif" />
+    <Content Include="imagenes\botones\btnatras.jpg" />
+    <Content Include="imagenes\botones\btnCancelar.gif" />
+    <Content Include="imagenes\botones\btnEliminar.gif" />
+    <Content Include="imagenes\botones\btnenviar.jpg" />
+    <Content Include="imagenes\botones\btnGenerarCuotas.jpg" />
+    <Content Include="imagenes\botones\btnGrabar.gif" />
+    <Content Include="imagenes\botones\btnguardar.jpg" />
+    <Content Include="imagenes\botones\btnImprimir.gif" />
+    <Content Include="imagenes\botones\btnlimpiar.jpg" />
+    <Content Include="imagenes\botones\btnNuevo.gif" />
+    <Content Include="imagenes\botones\btnpagar.jpg" />
+    <Content Include="imagenes\botones\btn_pagar_plomo.jpg" />
+    <Content Include="imagenes\botones\buscar_reserva.jpg" />
+    <Content Include="imagenes\botones\bus_inv.jpg" />
+    <Content Include="imagenes\botones\calendar.gif" />
+    <Content Include="imagenes\botones\calendar2.png" />
+    <Content Include="imagenes\botones\cancelar.jpg" />
+    <Content Include="imagenes\botones\confirmar_pago.jpg" />
+    <Content Include="imagenes\botones\consultar.jpg" />
+    <Content Include="imagenes\botones\continuar.jpg" />
+    <Content Include="imagenes\botones\cuadrito.jpg" />
+    <Content Include="imagenes\botones\detalle_precio.jpg" />
+    <Content Include="imagenes\botones\enviar.jpg" />
+    <Content Include="imagenes\botones\familiares.jpg" />
+    <Content Include="imagenes\botones\flecha.gif" />
+    <Content Include="imagenes\botones\flech_r_bm.png" />
+    <Content Include="imagenes\botones\grabar.jpg" />
+    <Content Include="imagenes\botones\guardar_cambios.jpg" />
+    <Content Include="imagenes\botones\guardar_cambios_plomo.jpg" />
+    <Content Include="imagenes\botones\icoAbrir.gif" />
+    <Content Include="imagenes\botones\icoContactenos.gif" />
+    <Content Include="imagenes\botones\icoEliminar.png" />
+    <Content Include="imagenes\botones\icoHome.gif" />
+    <Content Include="imagenes\botones\icoMenu.gif" />
+    <Content Include="imagenes\botones\icoTacho.gif" />
+    <Content Include="imagenes\botones\info-logo.jpg" />
+    <Content Include="imagenes\botones\inscribir.jpg" />
+    <Content Include="imagenes\botones\logo_marron.bmp" />
+    <Content Include="imagenes\botones\mapa.jpg" />
+    <Content Include="imagenes\botones\modificar.jpg" />
+    <Content Include="imagenes\botones\nuevo.jpg" />
+    <Content Include="imagenes\botones\nuevo_reg.jpg" />
+    <Content Include="imagenes\botones\pagar_safetypay.jpg" />
+    <Content Include="imagenes\botones\reglas.jpg" />
+    <Content Include="imagenes\botones\regresar.jpg" />
+    <Content Include="imagenes\botones\reg_ant.jpg" />
+    <Content Include="imagenes\botones\reservar.jpg" />
+    <Content Include="imagenes\flash\ejemplo.swf" />
+    <Content Include="imagenes\images\passwordstrength.jpg" />
+    <Content Include="imagenes\logos\002.jpg" />
+    <Content Include="imagenes\logos\003.jpg" />
+    <Content Include="imagenes\logos\ayuda.gif" />
+    <Content Include="imagenes\logos\boton afiliate a tu banco.gif" />
+    <Content Include="imagenes\logos\boton_afiliate.gif" />
+    <Content Include="imagenes\logos\bungalow.JPG" />
+    <Content Include="imagenes\logos\bungalows.jpg" />
+    <Content Include="imagenes\logos\calendario.jpg" />
+    <Content Include="imagenes\logos\candado.png" />
+    <Content Include="imagenes\logos\carpasplaya.jpg" />
+    <Content Include="imagenes\logos\deudas.jpg" />
+    <Content Include="imagenes\logos\espacio.gif" />
+    <Content Include="imagenes\logos\fono.jpg" />
+    <Content Include="imagenes\logos\grd_alt.png" />
+    <Content Include="imagenes\logos\grd_head.png" />
+    <Content Include="imagenes\logos\grd_pgr.png" />
+    <Content Include="imagenes\logos\icono_telefono.gif" />
+    <Content Include="imagenes\logos\invitados.jpg" />
+    <Content Include="imagenes\logos\libro_reclamaciones.jpg" />
+    <Content Include="imagenes\logos\logo.JPG" />
+    <Content Include="imagenes\logos\logo_comofunciona-1.JPG" />
+    <Content Include="imagenes\logos\logo_comofunciona-2.jpg" />
+    <Content Include="imagenes\logos\logo_confirmacion_mc.jpg" />
+    <Content Include="imagenes\logos\logo_confirmacion_visa.jpg" />
+    <Content Include="imagenes\logos\logo_correoconfirmacion.jpg" />
+    <Content Include="imagenes\logos\mc_accpt_023_gif.gif" />
+    <Content Include="imagenes\logos\mc_accpt_038_gif.gif" />
+    <Content Include="imagenes\logos\mc_accpt_050_gif.gif" />
+    <Content Include="imagenes\logos\mc_accpt_065_gif.gif" />
+    <Content Include="imagenes\logos\mc_accpt_113_gif.gif" />
+    <Content Include="imagenes\logos\nuevo_logo.jpg" />
+    <Content Include="imagenes\logos\NVO.visa-logo.jpg" />
+    <Content Include="imagenes\logos\reinaprimavera.JPG" />
+    <Content Include="imagenes\logos\SafetyPayLogo.jpg" />
+    <Content Include="imagenes\logos\SafetyPayLogo1.jpg" />
+    <Content Include="imagenes\logos\safetypaylogo2.gif" />
+    <Content Include="imagenes\logos\safetypaylogo2.jpg" />
+    <Content Include="imagenes\logos\sclogolearn_86x47.gif" />
+    <Content Include="imagenes\logos\sclogo_156x83.gif" />
+    <Content Include="imagenes\logos\sclogo_86x47.gif" />
+    <Content Include="imagenes\logos\V_byVBM_1C_rev.jpg" />
+    <Content Include="imagenes\logos\V_byVBM_2C_rev.jpg" />
+    <Content Include="imagenes\logos\V_byVBM_blk.jpg" />
+    <Content Include="imagenes\logos\V_byVBM_blue.jpg" />
+    <Content Include="imagenes\logos\V_byVBM_FC.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="inicio.aspx" />
+    <Content Include="js\ajax-dynamic-list.js" />
+    <Content Include="js\ajax.js" />
+    <Content Include="js\Calendar.js" />
+    <Content Include="js\jquery.alerts.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.PrintArea.js" />
+    <Content Include="js\jquery.ui.draggable.js" />
+    <Content Include="js\JScript.js" />
+    <Content Include="js\passwordStrengthMeter.js" />
+    <Content Include="logoff.aspx" />
+    <Content Include="Mensaje.aspx" />
+    <Content Include="menu1.xml" />
+    <Content Include="pdf\imagen178.jpg" />
+    <Content Include="pdf\imagen180.jpg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="controles\usrEncabezado.ascx.designer.vb">
+      <DependentUpon>usrEncabezado.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controles\usrEncabezado.ascx.vb">
+      <DependentUpon>usrEncabezado.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controles\usrPie.ascx.designer.vb">
+      <DependentUpon>usrPie.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controles\usrPie.ascx.vb">
+      <DependentUpon>usrPie.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="inicio.aspx.designer.vb">
+      <DependentUpon>inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="inicio.aspx.vb">
+      <DependentUpon>inicio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="logoff.aspx.designer.vb">
+      <DependentUpon>logoff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logoff.aspx.vb">
+      <DependentUpon>logoff.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Mensaje.aspx.designer.vb">
+      <DependentUpon>Mensaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mensaje.aspx.vb">
+      <DependentUpon>Mensaje.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PlantillaBosque.Master.designer.vb">
+      <DependentUpon>PlantillaBosque.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PlantillaBosque.Master.vb">
+      <DependentUpon>PlantillaBosque.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="utilitarios\Helper.vb" />
+    <Compile Include="utilitarios\Sesiones.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\GridView\GridView.skin" />
+    <None Include="bin\AjaxControlToolkit.dll.refresh" />
+    <None Include="bin\BusyBoxDotNet.dll.refresh" />
+    <None Include="bin\skmMenu.dll.refresh" />
+    <None Include="imagenes\botones\BBThumbs.dat" />
+    <None Include="imagenes\logos\BBThumbs.dat" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="pdf\Especificac Bungalo.pdf" />
+    <None Include="pdf\Especificaciones discapacitados.pdf" />
+    <None Include="pdf\Informacion para el asociado.pdf" />
+    <None Include="pdf\Información Economica.pdf" />
+    <None Include="pdf\LIBRO DE RECLAMACIONES el bosque.pdf" />
+    <None Include="pdf\REG-BGW-01 REGLAMENTO PARA EL USO DE BUNGALOWS _REV 04_ 18.03.pdf" />
+    <None Include="pdf\REG-BGW-02 REGLAMENTO PARA EL USO DE VAJILLA _REV 03_ 06.03.pdf" />
+    <Content Include="PlantillaBosque.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controller\Controller.vbproj">
+      <Project>{627C4BA3-7937-46A4-8223-984FBCD1980C}</Project>
+      <Name>Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.vbproj">
+      <Project>{7DC7804C-E921-4731-AD49-92F361AD441E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52879</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

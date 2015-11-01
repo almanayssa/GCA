@@ -1,0 +1,331 @@
+﻿iframe.skm 
+{
+	position:absolute;top:0px;left:0px;display:none;
+}
+
+.skmsubmenu
+{ 
+text-align : left; border : solid 1px #FBBD05;color:Black;
+background-color:#FFEFC0;cursor:pointer; z-index:auto;
+font-family : Verdana; font-size : small; font-weight : bold; width : 175px;line-height:20px;
+vertical-align:middle;
+}
+
+.skmSelMenuItem
+{
+	background-color: #FBBD05;
+} 
+
+
+
+.subMenu
+	{
+		BORDER-RIGHT: black thin; 
+		BORDER-TOP: black thin; 
+		BORDER-LEFT: black thin; 
+		BORDER-BOTTOM: black thin;
+	}
+	
+	
+
+.rss-popup {
+    margin: 100px auto;
+    padding: 0;
+    width: 100px;
+    position: relative;
+}
+
+div.rss-popup em {
+    background: url(../images/bubble.png) no-repeat;
+    width: 100px;
+    height: 49px;
+    position: absolute;
+    top: -70px;
+    left: -0px;
+    text-align: center;
+    text-indent: -9999px;
+    z-index: 2;
+    display: none;
+}
+
+#rss-icon {
+    width: 42px;
+    height: 42px;
+    background: url(../images/icon.png) no-repeat 0 0;
+    text-indent: -9999px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* Estilos para grid */
+
+.mGrid {   
+    width: 900px;   
+    background-color: #fff;   
+    margin: 5px 0 10px 0;   
+    border: solid 1px #525252;   
+    border-collapse:collapse;
+
+}  
+.mGrid td {   
+    padding: 2px;   
+    border: solid 1px;   
+}  
+
+.mGrid th {   
+    padding: 2px;   
+    color: #fff;   
+    background: #879734 repeat-x top;   
+    border-left: solid 1px;   
+    font-size: 0.9em;   
+}  
+
+.mGrid .pgr table { margin: 5px 0; }  
+.mGrid .pgr td {   
+    border-width: 0;   
+    padding: 0 6px;   
+    font-weight: bold;   
+    color: #fff;   
+    line-height: 12px;   
+ }     
+.mGrid .pgr a { color: #666; text-decoration: none; }  
+.mGrid .pgr a:hover { color: #000; text-decoration: none; }
+
+p { line-height: 200%;
+	margin-left: 80px;
+}
+
+hr {width: 574px; 
+color: #72614D
+}
+
+div.DatosSocio 
+{
+	font-family: Arial;
+	font-size: 10.5px; 
+	color: #82AE1D;
+	text-align:left;
+	margin-left: 300px;
+	clear:both;
+
+}
+
+div.bungalows 
+{
+	font-family: Arial;
+	font-size: 10.5px; 
+	color: #82AE1D;
+	text-align:left;
+	clear:both;
+	width: 1247px;
+	margin-left: 20px;
+}
+
+
+div.DatosSocio2 
+{
+	font-size: x-small; 
+	text-align:center;
+	margin-left: 280px;
+}
+
+div.DatosSocio3
+{
+	font-family:Arial;
+	font-size: 11px; 
+	text-align:left;
+	color: #82AE1D;
+	margin-left: 140px;
+}
+
+div.ayuda 
+{
+	font-family: Arial;
+	font-weight: bold; 
+	font-size: x-small; 
+	color: #82AE1D;
+	text-align:left;
+	margin-left: 220px;
+	clear:both;
+	width: 446px;
+	text-align: justify;
+}
+.CajaTextoDatosSocio
+{
+	Width:92px;
+	font-size: "x-small";
+	border-style: none;
+	border-color:#fff;
+	}
+
+.tablitaDatosSocio {   
+    width: 100%;   
+    background-color: #fff;   
+    height: 350px;
+}
+
+
+.tablita {   
+    width: 100%;   
+    background-color: #fff;   
+}
+
+.lblmarron {color: #72614D;font-weight:bolder;font-family:Arial;font-size:11px;}
+.lblazul{color: Blue;font-weight:bolder;text-indent: 250px;}
+.lblrojo{color: Red;font-weight:bolder;font-family:Arial;font-size:11px;}
+.lblverde {color: #82AE1D;font-weight:bolder;font-family:Arial;font-size:11px;}
+.lblnegro {color: Black;font-family:Arial;font-size:11px;text-align:justify;}
+
+.btn {margin-left:180px;}
+
+div.centrado{
+text-align: center;
+}
+
+div.centrado table {
+margin: 0 auto;
+text-align: left;
+}
+
+/*Definimos una clase para <ul> */
+
+  ul.columnas 
+  {
+  Float: left;
+  width: 100%; /*Este ancho será el total que ocupen muestras columnas */
+  List-style-type: none; /*Eliminamos las viñetas */
+  }
+
+/*Definimos las propiedades para <li> a partir de las otorgadas a <ul>*/
+
+  ul.columnas li{
+  Display:inline; /*Se declara que las propiedades serán otorgadas a cada linea*/
+  Float: left;
+  Width:240px;
+} /*Al definir el ancho definimos también el número de columnas, siendo 25% para 4 columnas, 33% para 3, 50% para 2 y asi para la cantidad de columnas que deseemos */
+
+
+  ul.columnas2 
+  {
+  Float: left;
+  width: 369px; /*Este ancho será el total que ocupen muestras columnas */
+  List-style-type: none;
+	height: 94px;
+}
+
+/*Definimos las propiedades para <li> a partir de las otorgadas a <ul>*/
+
+  ul.columnas2 li{
+  Display:inline; /*Se declara que las propiedades serán otorgadas a cada linea*/
+  Float: left;
+  Width: 153px;
+  }
+
+  ul.columnas3 
+  {
+  Float: left;
+  width: 100%; /*Este ancho será el total que ocupen muestras columnas */
+  List-style-type: none; /*Eliminamos las viñetas */
+  }
+
+/*Definimos las propiedades para <li> a partir de las otorgadas a <ul>*/
+
+  ul.columnas3 li{
+  Display:inline; /*Se declara que las propiedades serán otorgadas a cada linea*/
+  Float: left;
+  Width: 109px;
+} /*Al definir el ancho definimos también el número de columnas, siendo 25% para 4 columnas, 33% para 3, 50% para 2 y asi para la cantidad de columnas que deseemos */
+ 
+textarea {
+  resize: none;
+  width: 307px;
+  margin-left: 0px;
+  height: 58px;
+}
+
+.clear 
+{
+	clear:both;
+}
+
+span.tab
+{
+	float:left;
+	width:230px;
+}
+/* Para el medidor de contrasena */
+.style1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.inbox { width:200px;border:solid 1px gray; }
+.graybar { background:#dddddd; height:15px; margin-left:310px; width:200px;}
+.colorbar {margin-top:-15px;margin-left:310px; width:1px;background-image:url(../imagenes/images/passwordstrength.jpg);height:15px}
+.percent {margin-top:0px;margin-left:410px}
+.result {margin-left:150px;color:green; font-family:Tahoma;font-size:11px;}
+
+
+
+a.Ntooltip {
+position: relative; /* es la posición normal */
+text-decoration: none !important; /* forzar sin subrayado */
+color:#82AE1D !important; /* forzar color del texto */
+font-weight:bold !important; /* forzar negritas */
+}
+
+a.Ntooltip:hover {
+z-index:999; /* va a estar por encima de todo */
+background-color: Transparent; /* DEBE haber un color de fondo */
+}
+
+a.Ntooltip span {
+display: none; /* el elemento va a estar oculto */
+}
+
+a.Ntooltip:hover span {
+display: block; /* se fuerza a mostrar el bloque */
+position: absolute; /* se fuerza a que se ubique en un lugar de la pantalla */
+top:2em; left:2em; /* donde va a estar */
+font-family: Arial;
+font-size:x-small;
+font-style:oblique;
+font-weight:bolder;
+width:250px; /* el ancho por defecto que va a tener */
+padding:5px; /* la separación entre el contenido y los bordes */
+background-color: #fff6b1; /* el color de fondo por defecto */
+color: #72614D; /* el color de los textos por defecto */
+}
+
+div.menu_izquierda {
+    float:left;
+    width:200px;
+    padding-top:150px;
+}
+
+/* CALENDAR */
+/*.lblEventCalendarHour { font-family:Arial; font-size:11px; color:#484848; text-transform:lowercase; }
+.lblCalendarDay { font-family:Arial; font-size:12px; font-weight:bold; color:#484848; }
+.lblCalendarDayName { text-align:center; border:1px solid #484848; width:113px; padding-top:3px; padding-bottom:3px; color:#484848; font-weight:bold; font-family:Arial; font-size:12px; }
+.calendarTitle { background-color:#484848; font-family:Arial; font-size:13px; font-weight:bold;	color:#FFFFFF; padding-top:5px;	padding-bottom:5px;	text-align:center; }
+.calendarRow { background-color:#EAEDED; width:116px; height:90px; vertical-align:top; text-align:left; border-right:solid 1px #FFFFFF; border-bottom:solid 1px #FFFFFF; padding-left:3px; padding-top:3px; }
+.lblMonthYear {	font-family:Arial; font-size:12px; color:#333333; padding-right:3px; font-weight:bold; }*/
+
+.generalTextSectionTitle { font-size:12px; padding:10px; background-color: #69A603; top:5px;}
+
+.calendarGeneral a { color:red; text-decoration:none; font-size:11px;}
+.calendarGeneral a:hover { color:red; text-decoration:underline; font-size:11px;}
+.calendarDayHeader { font:bold 11px Arial; color:#6B9F29;}
+.calendarTodayDay { font:normal 11px Arial; background-color:#6B9F29;}
+.calendarTodayDay a { font:normal 11px Arial; text-decoration:none;}
+.calendarTodayDay a:hover { font:normal 11px Arial; text-decoration:underline;}
+.calendarOtherMonthDay a, a:hover { text-decoration:none; font-size:11px;}
+.tabsCalendarasas { border-bottom:solid 1px #888888;}
+.tabsCalendar { border-bottom:0px;}
+.tabsCalendar1 { padding-left:5px; border-bottom:solid 1px #888888;}
+.imageEventsCalendar { border-top:solid 1px #888888; padding-top:5px; padding-bottom:5px;}
+.contentEventsCalendar { border-top:solid 1px #888888; padding:5px 10px 5px 10px; width:340px;}
+.contentEventsLinks { border-top:solid 1px #888888; padding-top:5px; padding-bottom:5px;}
+
+.filterCalendar { border:solid 1px #D5D6D4;}
