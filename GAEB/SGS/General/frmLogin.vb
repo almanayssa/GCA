@@ -33,6 +33,7 @@ Public Class frmLogin
 
     Private Sub IniciarSesion()
 
+        'Prueba
         'If ValidarCamposRequeridos() Then
         '    MessageBox.Show("Complete datos", "Información")
         '    Exit Sub
